@@ -46,13 +46,33 @@ Follow these steps:
 [github](https://github.com/) 
 1. Under your profile, navigate to "Your Repositories"
 ![profile](Images/settings.png)
-1. Select your fork of the Connected Devices Repository  (e.g., `connected-devices-spring18`, `connected-devices-spring19`, etc.)
+1. Select your fork of the Connected Devices Repository  (e.g., `connected-devices-spring18`, `connected-devices-spring19`, `connected-devices-spring20`, etc.)
 ![your fork](Images/repo.png)
 1. Click on settings (far right)
 ![Settings](Images/repo_settings.png)
 1. On the Settings page, select "Collaborators and Teams" on the Left, and click on "X" next to any team _other_ than **instructors** to remove permissions for that team (e.g., **students-spring18**)
 ![click on the "X"](Images/repo_permissions.png)
 1. DO NOT change permissions for **Instructors** as doing so will prevent your assignments from being graded.
+
+## Recommended Git Workflow
+
+There are many ways you can use Git for this course, depending on your comfort and experience with Git.
+
+The overall workflow for the course is, for each chapter:
+
+* the instructors will update the main repository on GitHub and notify the students via Slack that there is new content in that repository
+* students will get those updates into their local Git repo (e.g., using `git fetch`)
+* students will work on that week's assignment (and use the previous week's Ansible solution)
+* students will submit their assignment for grading via a GitHub pull request
+
+Here is a suggested workflow:
+
+1. use `git fetch` in your local repository to get the latest from the main repository
+2. create a separate branch for each week's assignment, with something like `git checkout -b assignment_01 origin/main` (which will create a new branch called _assignment\_01_ based on the current state of the _main_ branch in the _origin_ repository (GitHub) __and__ checkout that new branch)
+3. do your work on the assignment branch
+4. submit your pull request from the assignment branch
+
+The net effect of this is that you (the student) do not make any commits to the _main_ branch, so there are never conflicts as you update your code base from the instructor codebase.
 
 ## Unix Philosophy
 

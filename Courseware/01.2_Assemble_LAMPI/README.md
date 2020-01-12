@@ -154,17 +154,10 @@ The Kapton&tade; tape piece should be approximately 50mm x 85mm (2" x 3 3/8").  
 
 **NOTE: the Kapton Tape may not appear in all pictures below, but it should be installed.**
 
-Attach the nylon standoffs to the Raspberry Pi 3B - insert the nylon bolts from the bottom through holes in the PCB next to the 40-pin connector, and attach the standoffs on top by screwing them on.  **Screw the standoffs on by hand - no tools - and just turn until snug.**
 
-![](Images/nylon_bolts.png)
+Very carefully, being **doubly careful** to check pin alignment, insert the 40-pin header on the Raspberry Pi into the 40-pin connector on the PiTFT touchscreen.  This will effectively sandwich the ribbon cable between the Raspberry PI and the PiTFT Touchscreen.  (You may not have the nylon standoffs pictured - that is fine, just double, triple check the alingment of the pins and the connector).
 
-![](Images/nylon_standoffs_bottom.png)
-
-![](Images/nylon_standoffs_top.png)
-
-Very carefully, being **doubly careful** to check pin alignment, insert the 40-pin header on the Raspberry Pi into the 40-pin connector on the PiTFT touchscreen.  This will effectively sandwich the ribbon cable between the Raspberry PI and the PiTFT Touchscreen.  The nylon standoffs will align with two holes in the PiTFT.
-
-Gently press the Raspberry Pi down until it is firmly seated on the PiTFT.  The ends of nylon standoffs will fit into holes in the PiTFT PCB.
+Gently press the Raspberry Pi down until it is firmly seated on the PiTFT. 
 
 ![](Images/install_pi.png)
 ![](Images/install_pi2.png)
@@ -177,7 +170,7 @@ You may now insert you Micro SD card into the Raspberry Pi.
 
 > ## If you do not have the two upper 3D printed parts (the White LED Support Column and Shade), you can stop here for now - follow these instructions..
 
-> **You can complete a partially working LAMPI here - the Raspberry Pi and touchscreen will be functional, but it obviously cannot generate light.**
+> **You can complete a partially working LAMPI here - the Raspberry Pi and touchscreen will be functional, but it will only generate light from the small, diagnostic Red Green Blue (RGB) LED mounted at the top of the interface PCB.**
 
 > Align the front and rear panels so the locking rails mate.
 

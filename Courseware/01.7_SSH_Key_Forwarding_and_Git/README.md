@@ -1,8 +1,10 @@
 # SSH Key Forwarding
 
-We are going to set up SSH Key Forwarding to simplify working with Git on your LAMPI as well as EC2 in the future.
+We are going to set up SSH Key Forwarding to simplify working with Git on your LAMPI as well as with AWS EC2 in the future.
 
 SSH Key Forwarding is also necessary for Ansible (the DevOps tool we will use) to work in the future as it will automatically clone and/or update the GitHub repository.
+
+Here is a [short blog post](https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/) related to this that you might find useful.
 
 ## Set up Public/Private Key SSH for your Raspberry Pi
 
