@@ -68,11 +68,13 @@ The overall workflow for the course is, for each chapter:
 Here is a suggested workflow:
 
 1. use `git fetch` in your local repository to get the latest from the main repository
-2. create a separate branch for each week's assignment, with something like `git checkout -b assignment_01 origin/main` (which will create a new branch called _assignment\_01_ based on the current state of the _main_ branch in the _origin_ repository (GitHub) __and__ checkout that new branch)
+2. create a separate branch for each week's assignment, with something like `git checkout -b assignment_01 origin/master` (which will create a new branch called _assignment\_01_ based on the current state of the _master_ branch in the _origin_ repository (GitHub) __and__ checkout that new branch)
 3. do your work on the assignment branch
 4. submit your pull request from the assignment branch
 
-The net effect of this is that you (the student) do not make any commits to the _main_ branch, so there are never conflicts as you update your code base from the instructor codebase.
+The net effect of this is that you (the student) do not make any commits to the _master_ branch, so there are never conflicts as you update your code base from the instructor codebase.
+
+[This post shows one way to synchronize your fork with the main repository via the GitHub Web Interface.](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
 
 ## Unix Philosophy
 
