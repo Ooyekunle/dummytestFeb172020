@@ -2,7 +2,7 @@
  * CWRU - EECS377
  * CSU - CIS 493 / EEC 492
 
-## Spring, 2019
+## Spring 2020
 
 ### Instructors:
 
@@ -11,10 +11,10 @@
  * plus additional experts   
 
 ### Course Logistics: 
- * Lecture Time:  Tuesday & Thursday 4:00-5:15
- * Location: Nord 410 (CWRU Campus)
- * TA: **Caleb Cains** _caleb.cain@case.edu_
- * Office Hours:  By appointment and Slack [https://cwru-eecs397-spring17.slack.com](https://cwru-eecs397-spring17.slack.com)  
+ * Lecture Time:  Monday & Wednesday 4:30-5:45
+ * Location: Berkman Hall 431 (CSU Campus)
+ * TA: **Dorothy Zhao** _zhao.dorothy33@gmail.com_
+ * Office Hours:  By appointment and Slack [https://intro-to-connecteddev.slack.com/](https://intro-to-connecteddev.slack.com/)  
 
 ## Course Description
 
@@ -99,25 +99,31 @@ Students will be paired for each assignment.
 
 ## Tentative Lecture Schedule
 
-1. Introduction to Connected Devices (Internet of Things) and LAMPi (1/15)
-1. User Experience, User Interfaces, and Touchscreens (Kivy) (1/17)
-1. Publish/Subscribe Architectures (MQTT) (1/24)
+1. Introduction to Connected Devices (Internet of Things) and LAMPi (1/13)
+1. User Experience, User Interfaces, and Touchscreens (Kivy) (1/15)
+1. Publish/Subscribe Architectures (MQTT) (1/22)
 1. The Cloud (AWS and MQTT) (1/29)
 1. Web User Interfaces (HTTP, NGINX, JavaScript) (2/5)
 1. Web Frameworks (Django) (2/12)
 1. Production Web Serving & User/Device Association (2/19)
 1. Native Mobile Development (2/26)
-1. Bluetooth Low Energy on Embedded and Mobile Devices (3/5)
-1. Analytics: Instrumentation, Querying, and Visualization (3/19)
-1. Updating Firmware in the Field (3/26)
-1. System Loading and Load Testing (4/2)
-1. Essential Security - Part 1 (4/9)
-1. Essential Security - Part 2 (4/16)
-1. IoT Platforms (4/25)
-1. Final Projects Presentations - Finals Week
+1. Bluetooth Low Energy on Embedded and Mobile Devices (3/4)
+1. Analytics: Instrumentation, Querying, and Visualization (3/16)
+1. Updating Firmware in the Field (3/23)
+1. System Loading and Load Testing (3/30)
+1. Essential Security - Part 1 (4/6)
+1. Essential Security - Part 2 (4/13)
+1. IoT Platforms (4/22)
+1. Final Projects Presentations - CWRU Students (4/27)
+1. Final Projects Presentations - CSU Students (4/29)
 
 
-Note: Thursday, April 25th will be our last lecture day for the semester.
+Holidays (no classes)
 
+* Monday, January 29th - Martin Luther King Jr.
+* Monday, Feburary 17th - Presidents's Day
+* March 9th through March 13th - Spring Break
+
+Last Day of Classes for CWRU students is Monday, April 27th.
 
 &copy; 2015-2020 LeanDog, Inc. and Nick Barendt

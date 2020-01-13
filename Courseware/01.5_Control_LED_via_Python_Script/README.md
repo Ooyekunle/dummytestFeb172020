@@ -10,12 +10,6 @@ We will install the [pigpio](http://abyz.me.uk/rpi/pigpio/) library for controli
     Username: pi 
     Password: [your password]
     ```
-
-1. Install `distutils` for Python3 (this is needed when, later, the Python API for pigpio is built)
-
-	```
-	sudo apt-get install python3-distutils
-	```
 	
 1. Download pigpio library: [http://abyz.me.uk/rpi/pigpio/download.html](http://abyz.me.uk/rpi/pigpio/download.html)
 

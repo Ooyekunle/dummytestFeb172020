@@ -6,10 +6,12 @@ Rasbian is a free operating system based on Debian optimized for the Raspberry P
 
 For this part of the lesson, you'll need your Micro SD Card and Micro SD Adapter. ![SDCard and Reader](Images/SD_card_and_reader.jpg) 
 
+The version of Raspbian we will use for this semester is:
 
-**Raspbian Buster Lite with a release date of 2019-09-26 [Zip](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-09-30/2019-09-26-raspbian-buster-lite.zip) or [Torrent](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-09-30/2019-09-26-raspbian-buster-lite.zip.torrent)**
-with SHA256 of **a50237c2f718bd8d806b96df5b9d2174ce8b789eda1f03434ed2213bbca6c6ff**
+**Raspbian Stretch Lite with a release date of 2019-04-08 [Zip](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-04-09/2019-04-08-raspbian-stretch-lite.zip) or [Torrent](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-04-09/2019-04-08-raspbian-stretch-lite.zip.torrent)**
+with SHA256 of **03ec326d45c6eb6cef848cf9a1d6c7315a9410b49a276a6b28e67a40b11fdfcf**
 
+> **COMPATIBILITY:** It is __critical__ that you use the exact version of Raspbian specified above!
 
 ### SD Cards
 
