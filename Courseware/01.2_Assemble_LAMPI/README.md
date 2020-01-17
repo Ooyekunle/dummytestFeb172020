@@ -150,7 +150,7 @@ Fold the ribbon cable gently, so it lays flat against the PCB.
 
 ![](Images/kapton_tape.png)
 
-The Kapton&tade; tape piece should be approximately 50mm x 85mm (2" x 3 3/8").  It should cover the back, but not the entry to the SD card holder.  Kapton&trade; is a great insulator and dielectric (insulator) - for our purposes it prevents possible electrical short circuits between the Raspberry Pi and the LAMPI Interface Board.
+The Kapton&trade; tape piece should be approximately 50mm x 85mm (2" x 3 3/8").  It should cover the back, but not the entry to the SD card holder.  Kapton&trade; is a great insulator and dielectric (insulator) - for our purposes it prevents possible electrical short circuits between the Raspberry Pi and the LAMPI Interface Board.
 
 **NOTE: the Kapton Tape may not appear in all pictures below, but it should be installed.**
 
