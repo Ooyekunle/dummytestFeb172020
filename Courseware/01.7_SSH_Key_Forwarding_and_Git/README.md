@@ -148,7 +148,7 @@ $ sudo apt-get install git
 1. Clone the GitHub Repository (substituting the correct git URI and noting the `connected-devices` directory after the URI):
 
     ```shell
-    $ git clone git@github.com:CWRU-Connected-Devices/connected-devices-spring19.git connected-devices
+    $ git clone git@github.com:CWRU-Connected-Devices/connected-devices-spring20.git connected-devices
     ```
 
 1. When the clone is complete, you should have a copy of the repository on your LAMPI.
