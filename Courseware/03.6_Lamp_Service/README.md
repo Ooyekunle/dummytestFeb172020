@@ -12,7 +12,7 @@ You will be extracting the software you wrote for the Kivy UI application in Ass
 
 Services are generally long-running applications that clients can access via a well known "endpoint" (e.g., TCPIP hostname and port number, Unix pipe, etc.).  Our service will subscribe to an MQTT topic `lamp/set_config` to monitor for lamp configuration change requests, and publish notifications of lamp changes on the `lamp/changed` topic.
 
-If a device loses power, it should return to either a default configuration, or the last known state.  Since we are building a "smart" device, LAMPI will return to the last known state.  This will require the service to persist the lamp configuration to the filesystem on every change.  There are numerous ways of storing configuration state on a filesystem - for this lab, please use the Python [shelve](https://docs.python.org/2/library/shelve.html) library (a very simple database-like mechanism).
+If a device loses power, it should return to either a default configuration, or the last known state.  Since we are building a "smart" device, LAMPI will return to the last known state.  This will require the service to persist the lamp configuration to the filesystem on every change.  There are numerous ways of storing configuration state on a filesystem - for this lab, please use the Python [shelve](https://docs.python.org/3.5/library/shelve.html) library (a very simple database-like mechanism).
 
 ## Pub/Sub Interactions
 

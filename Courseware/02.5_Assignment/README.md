@@ -18,7 +18,7 @@ The app should look like the following:
 ## Notes
 
 * For lamp control, reference your lab from assignment one. A completed version of the previous assignment has been provided at **connected-devices/Lampi/scripts/lamp_cmd.py**.
-* User input happens in HSV color space (hue, saturation, value) but needs to be converted to RGB (red, green, blue) values to control the lamp. For conversion between color systems, check out [colorsys](https://docs.python.org/2/library/colorsys.html) which is built into Python.
+* User input happens in HSV color space (hue, saturation, value) but needs to be converted to RGB (red, green, blue) values to control the lamp. For conversion between color systems, check out [colorsys](https://docs.python.org/3.5/library/colorsys.html) which is built into Python.
 * In the HSV space, **value** isn't really useful here. When doing conversions, assume a value of 1.0 and don't confuse PWM-controlled brightness with value.
 * [Kivy layouts](http://kivy.org/docs/gettingstarted/layouts.html) can be nested to build complex layouts. Try to find the simplest way to accomplish the layout you're looking for.
 * Power icons have been provided for you, located in **connected-devices/Lampi/images**

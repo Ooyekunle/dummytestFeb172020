@@ -109,7 +109,7 @@ When you reference a [Kivy property](http://kivy.org/docs/api-kivy.properties.ht
 
 #### Binding to code
 
-Kivy cannot bind to [Python properties](https://docs.python.org/2/library/functions.html#property), instead it has it's own special [Kivy properties](http://kivy.org/docs/api-kivy.properties.html). Instead of the markup and the code interfacing directly, let's loosely couple them through property bindings. We're going to create an app that will display the product of two factors. Modify your `hello_app.py`:
+Kivy cannot bind to [Python properties](https://docs.python.org/3.5/library/functions.html#property), instead it has it's own special [Kivy properties](http://kivy.org/docs/api-kivy.properties.html). Instead of the markup and the code interfacing directly, let's loosely couple them through property bindings. We're going to create an app that will display the product of two factors. Modify your `hello_app.py`:
 
 ```
 from kivy.app import App

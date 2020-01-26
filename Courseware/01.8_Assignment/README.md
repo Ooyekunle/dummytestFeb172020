@@ -41,8 +41,8 @@ Before the start of class next week, one member of each pair should send an emai
   * [_set_PWM_range()_](http://abyz.me.uk/rpi/pigpio/python.html#set_PWM_range)
   * [_set_PWM_frequency()_](http://abyz.me.uk/rpi/pigpio/python.html#set_PWM_frequency)
 * The following Python *time* function might be useful:
-  * [_sleep()_](https://docs.python.org/2/library/time.html#time.sleep)
-* The Python [_range()_](https://docs.python.org/2/library/functions.html#range) built-in function might be useful.
+  * [_sleep()_](https://docs.python.org/3.5/library/time.html#time.sleep)
+* The Python [_range()_](https://docs.python.org/3.5/library/functions.html#func-range) built-in function might be useful.
 * Please have everything you need setup and ready to demonstrate before class starts
 
 Other documentation:

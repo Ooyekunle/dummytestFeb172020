@@ -47,7 +47,7 @@ where *argc* contains the number of arguments, and *argv* is a list of pointers 
 Since Python lists are self-describing (requiring no separate length parameter) only *argv* is needed.  It is available via the *sys* module is `sys.argv` (Note:  argc can be determined with `len(sys.argv)`.  If `len(sys.argv)` is less than 2, there are no command-line arguments, just the program name in argv[0].
 
 ## Python `argparse` libary
-Python has as very useful library called [argparse](https://docs.python.org/2/library/argparse.html#module-argparse).  There is an excellent [argparse Tutorial](https://docs.python.org/2/howto/argparse.html#id1) that you should read through, executing some of the samples provided until you understand the operation.
+Python has as very useful library called [argparse](https://docs.python.org/3.5/library/argparse.html#module-argparse).  There is an excellent [argparse Tutorial](https://docs.python.org/3.5/howto/argparse.html#id1) that you should read through, executing some of the samples provided until you understand the operation.
 
 The simplest example is:
 
