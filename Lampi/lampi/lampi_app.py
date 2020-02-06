@@ -90,7 +90,7 @@ class LampiApp(App):
                 lambda dt: self._update_leds(), 0.01)
 
     def on_connect(self, client, userdata, flags, rc):
-        self.mqtt.publish(client_state_topic(MQTT_CLIENT_ID), "1",
+        self.mqtt.publish(client_state_topic(MQTT_CLIENT_ID), b"1",
                           qos=2, retain=True)
         self.mqtt.message_callback_add(broker_bridge_connection_topic(),
                                        self.receive_bridge_connection_status)
@@ -101,7 +101,7 @@ class LampiApp(App):
 
     def receive_bridge_connection_status(self, client, userdata, message):
         # monitor if the MQTT bridge to our cloud broker is up
-        if message.payload == "1":
+        if message.payload == b"1":
             self.mqtt_broker_bridged = True
         else:
             self.mqtt_broker_bridged = False
@@ -151,8 +151,8 @@ class LampiApp(App):
 
     def update_popup_ip_address(self, instance):
         interface = "wlan0"
-        ipaddr = lampi_util.get_ip_address(interface)
-        deviceid = lampi_util.get_device_id()
+        ipaddr = lampi.lampi_util.get_ip_address(interface)
+        deviceid = lampi.lampi_util.get_device_id()
         msg = "{}: {}\nDeviceID: {}\nBroker Bridged: {}".format(
             interface, ipaddr, deviceid, self.mqtt_broker_bridged)
         instance.content.text = msg

@@ -5,6 +5,7 @@
   git:
     repo: https://github.com/scopatz/nanorc.git
     dest: /home/pi/.nano
+    version: v2.9
 
 - name: read scopatz nanorc into a register
   shell: cat /home/pi/.nano/nanorc
