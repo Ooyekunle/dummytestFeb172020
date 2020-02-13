@@ -2,6 +2,10 @@
 
 In this assignment, you will build a Websockets based Web UI to tie into your MQTT infrastructure and control the lamp, and display the current lamp state.  This UI will replicate the UI of the touchscreen Kivy application.
 
+The overall system architecture will look like this:
+
+![architecture](Images/LAMPI System Build 05.png)
+
 When finished, your application should look like:
 
 ![finished site](Images/finished_example.gif)
